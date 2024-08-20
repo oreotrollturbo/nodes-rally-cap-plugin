@@ -113,7 +113,7 @@ class NodesWhitelistCommand(private val plugin: Rally_cap) : CommandExecutor, Ta
                 }
             }
             else -> {
-                sender.sendMessage("${ChatColor.RED}Invalid subcommand. Use 'add', 'remove', or 'get'.")
+                sender.sendMessage("${ChatColor.RED}Invalid subcommand. Use 'add', 'remove', or 'get'.") // Error message
             }
         }
         return true
