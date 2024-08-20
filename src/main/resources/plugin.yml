@@ -1,0 +1,4 @@
+name: rally-cap
+version: '${project.version}'
+main: org.oreo.rallycap.Rally_cap
+api-version: '1.20'
